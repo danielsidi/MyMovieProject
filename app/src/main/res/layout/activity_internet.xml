@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_internet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danie.mymovieproject.InternetActivity"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:weightSum="3">
+
+        <TextView
+            android:text="@string/search_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_tv"
+            android:layout_weight="0.6"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/search_line_et"
+            android:ems="10"
+            android:id="@+id/search_line_et"
+            android:layout_weight="1.8"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="@string/go_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_btn"
+            android:layout_weight="0.6"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.3"
+        android:id="@+id/listView_internetActivity" />
+
+    <Button
+        android:text="@string/cancel_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/cancelBTN"
+        android:layout_weight="0.3" />
+</LinearLayout>

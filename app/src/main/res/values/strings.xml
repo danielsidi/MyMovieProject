@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyMovieProject</string>
+    <string name="plusBTN">+</string>
+    <string name="movie_title">This is the movie name</string>
+    <string name="movie_name_tv">this is the movie name</string>
+    <string name="subject_tv">Subject:</string>
+    <string name="show_btn">Show</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="ok_btn">OK</string>
+    <string name="body_tv">Body:</string>
+    <string name="url_tv">url:</string>
+    <string name="go_btn">GO</string>
+    <string name="cancel_BTN" >CANCEL</string>
+    <string name="delete_btn">delete</string>
+    <string name="edit_btn">Edit</string>
+    <string name="search_tv">search:</string>
+    <string name="search_line_et" />
+    <string name="ratingBar" />
+</resources>

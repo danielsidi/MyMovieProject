@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/noimage"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/movie_name_tv"
+        android:text="@string/movie_name_tv"
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginLeft="11dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/movie_poster"
+        android:layout_toEndOf="@+id/movie_poster"
+        android:layout_marginStart="11dp"
+        android:fontFamily="casual"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:text="@string/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarTV"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center" />
+    <![CDATA[
+
+
+    />
+
+]]>
+</RelativeLayout>
